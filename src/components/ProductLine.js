@@ -5,6 +5,9 @@ class ProductLine extends Component {
     constructor(props) {
         super(props);
         this.product = props.product;
+        this.state = {
+            isChecked: true
+        }
     }
 
     render() {
