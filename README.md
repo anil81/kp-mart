@@ -57,18 +57,31 @@ my-app/
     index.html
     favicon.ico
   src/
-    App.css
-    component.js
-    component.test.js
+    components/
+      Cart.js
+      SearchBar.js
+      SearchResults.js
+      ProductLine.js
+    data/
+      Products.js
+    kpmart/
+       kpmart.css
+       kpmart.jpeg
+       kpmart.js
+       kpmart.test.js
     index.css
     index.js
     logo.svg
+    registerServiceWorker.js
 ```
 
 For the project to build, **these files must exist with exact filenames**:
 
 * `public/index.html` is the page template;
 * `src/index.js` is the JavaScript entry point.
+* `kpmart/` contains the main component.
+* `components` contains all the essentia sub components of the page.
+* `data` contains all the Products (searchable) details.
 
 ## Available Scripts
 
