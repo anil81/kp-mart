@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './kpmart/component';
+import KpMart from './kpmart/kpmart';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<KpMart />, document.getElementById('root'));
 registerServiceWorker();
