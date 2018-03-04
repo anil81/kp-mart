@@ -8,13 +8,13 @@ class ProductLine extends Component {
     }
 
     render() {
-        return (<tr>
+        return (
+        <tr>
             <td><input type="checkbox" /></td>
             <td>{this.product.name}</td>
             <td>{this.product.price}</td>
         </tr>)
     }
-
 }
 
 export default ProductLine;
